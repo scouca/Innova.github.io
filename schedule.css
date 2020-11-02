@@ -1,0 +1,117 @@
+.grid-container{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas:
+    "head head head head"
+    "nv nv nv nv"
+   "mn mn mn mn"
+    "mn mn mn mn"
+    "ft ft ft ft";
+}
+
+/* ----- head classer----- */
+header{
+    grid-area: head;
+    background-image: url("images/back head.png");
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.logo{
+    padding: 10px;
+}
+.p{
+    font-size: 50px;
+    font-family:"Apple Chancery";
+    text-align: center;
+    color: #d4c17c;
+    padding: 50px;
+}
+/* ----- menu bar classer----- */
+nav{
+    grid-area: nv;
+}
+.two{
+    -moz-box-shadow: -5px -5px #cdcaca;
+    -webkit-box-shadow: -5px -5px #cdcaca;
+    box-shadow: -5px -5px #cdcaca;
+    color: white;
+}
+.ul-list{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 30px;
+}
+ul{
+    color: white;
+    margin: 30px;
+    border: 2px solid black;
+    font-size: medium;
+    border-radius: 5px;
+}
+li{
+    color: white;
+    font-size:medium;
+    display: inline;
+    padding: 40px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+li:hover{
+    background-color: #a6c9ef;
+}
+.button {
+    color: black;
+    border-radius: 15%;
+    background-color: #255d90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color:#255d90;
+}
+.item{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin-right: 30px;
+    margin-left:30px;
+}
+main{
+    grid-area: mn;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ----- footer classer----- */
+footer{
+    grid-area: ft;
+    text-align:center;
+    border: 1px solid black;
+    align-items: center;
+    background-color: #255d90;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* ----- table classer----- */
+table, th, td{
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+tr{
+    font-family: Neuton;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-family:"Apple Chancery";
+}
