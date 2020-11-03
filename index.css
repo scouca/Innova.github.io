@@ -8,14 +8,6 @@
     "mn mn mn mn"
     "ft ft ft ft";
 }
-@media only screen and (max-width: 500px){
-    .item1{grid-area:head }
-    .item2{grid-area: nv}
-    .item3{grid-area: mn}
-    .item3{grid-area: mn}
-    .item4{grid-area: ft}
-
-}
 
 /* ----- head classer----- */
 header{
@@ -63,9 +55,9 @@ li{
     color: white;
     font-size:medium;
     display: inline;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
-    font-family: "Comic Sans MS";
+    font-family: "Arial";
 }
 
 li:hover{
@@ -110,5 +102,9 @@ footer{
 /* ----- text style classer----- */
 p{
     color: white;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 
