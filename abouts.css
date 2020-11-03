@@ -43,7 +43,7 @@ nav{
     display: inline;
     padding: 40px;
     text-align: center;
-    font-family: "Comic Sans MS";
+ 
 }
 .ul-list{
     display:flex;
@@ -62,9 +62,9 @@ ul{
     color: white;
     font-size:medium;
     display: inline;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
-    font-family: "Comic Sans MS";
+    font-family: "Arial";
 }
 
 .item:hover{
@@ -146,4 +146,8 @@ h{
 }
 article{
     padding: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
