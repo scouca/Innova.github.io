@@ -54,9 +54,9 @@ li{
     color: white;
     font-size:medium;
     display: inline;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
-    font-family: "Comic Sans MS";
+    font-family: "Arial";
 }
 
 li:hover{
@@ -157,4 +157,8 @@ h2{
 }
 span{
     font-size: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
