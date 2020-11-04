@@ -1,0 +1,53 @@
+
+.button {
+    color: whitesmoke;
+    border-radius: 15%;
+    background-color: #255d90;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+main{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main h2 {
+    color: inherit;
+    font-size: 3vw;
+}
+
+table tr, td, th{
+    font-size: 2vw;
+}
+/* ----- footer classer----- */
+footer{
+    text-align:center;
+    border: 1px solid black;
+    align-items: center;
+    background-color: #255d90;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* ----- table classer----- */
+table, th, td{
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+tr{
+    font-family: Neuton;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-family:"Apple Chancery";
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
